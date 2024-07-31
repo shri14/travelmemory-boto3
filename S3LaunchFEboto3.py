@@ -14,7 +14,7 @@ user_data_script = f"""#!/bin/bash
 cd /home/ubuntu/
 sudo apt-get update -y
 sudo apt-get install git -y
-sudo git clone https://github.com/patilajayv/TravelMemory.git
+sudo git clone https://github.com/shrikar14/TravelMemory.git
 
 # Installation instructions of NodeJS can be found here "https://github.com/nodesource/distributions.git"
 
