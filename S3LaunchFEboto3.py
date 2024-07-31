@@ -9,7 +9,7 @@ ec2 = boto3.resource('ec2', region_name='ap-south-1')  # You can set your desire
 ubuntu_ami_id = 'ami-0287a05f0ef0e9d9a'  # Replace with the actual AMI ID you find for your Ubuntu version and region
 
 # User data script to update packages and install Nginx
-password = 'lokesh'
+password = 'shrikar'
 user_data_script = f"""#!/bin/bash
 cd /home/ubuntu/
 sudo apt-get update -y
